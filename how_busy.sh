@@ -1,2 +1,1 @@
-#comment to update this analysis and then recommit. second edit
-find . -name "*.sh" | wc -l
+find . -name "*.sh" -exec wc -l {} \;
